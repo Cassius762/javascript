@@ -1,0 +1,43 @@
+<html>
+    <head>
+<script>
+    
+              document.getElementById("dyna").innerHTML ="pitbull"
+     function showImg(){
+        document.getElementById('heroimg').innerHTML = '<img src="img/pitbull.jpg" >'
+     }
+
+    
+        document.getElementById('dyna').innerHTML ="rottweiler"
+     function showrottweiler(){
+        document.getElementById('heroimg').innerHTML = '<img src="img/rottweiler.jpg" >'
+        
+     }
+    
+        document.getElementById('dyna').innerHTML ="germanshepherd"
+     function showgermanshepherd(){
+        document.getElementById('heroimg').innerHTML = '<img src="img/germanshepherd.jpg" >'
+     }
+
+</script>
+
+
+    </head>
+
+    <body>
+        <h1>Types of breeds</h1>
+        <p id="dyna">Click show image button to show pitbull</p>
+        <div id="heroimg"></div>
+        <button onclick="showImg()">Show Image</button>
+
+        <p id="dyna">Click show image button to show rottweiler</p>
+        <div id="heroimg"></div>
+        <button onclick="showrottweiler()">Show image</button>
+
+        <p id="dyna">Click show image button to show germanshepherd</p>
+        <div id="heroimg"></div>
+        <button onclick="showgermanshepherd()">Show image</button>
+    
+
+    </body>
+</html>
